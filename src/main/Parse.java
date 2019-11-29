@@ -12,7 +12,7 @@ public class Parse {
     public static void main(String[] args) {
     	ObjectMapper objectMapper = new ObjectMapper();
     	try {
-    	    JsonNode root = objectMapper.readTree(new File("/home/dani45/Bureau/quest_json/java-jsonparse-jackson/weather.json"));
+    	    JsonNode root = objectMapper.readTree(new File("/home//Bureau/quest_json/java-jsonparse-jackson/weather.json"));
     	
            
 
